@@ -4,7 +4,8 @@ My first chatbot
 
 ## Getting Started
 
-- Install Flutter on flutter.dev
-- Run "flutter pub get"
+- Install Flutter on flutter.dev.
+- Run "flutter pub get".
 - Fill with your chatgpt api key in "lib/classes/chatGPT_api.dart" in the "token" variable.
+- Run "flutter run" with your device connected.
 - Enjoy it! 😉
