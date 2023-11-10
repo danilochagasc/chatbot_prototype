@@ -31,11 +31,9 @@ class ChatGptApi {
         final responseTxt = data['choices'][0]['text'];
         return responseTxt;
       } else {
-        // Trate o caso em que 'choices' está vazio ou ausente.
         return "Resposta vazia";
       }
     } else {
-      // Trate erros na resposta da API.
       throw Exception('Erro na requisição à API');
     }
   }
